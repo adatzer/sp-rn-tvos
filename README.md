@@ -7,6 +7,7 @@ To run the TestAppTvOS:
 git clone git@github.com/adatzer/sp-rn-tvos.git
 cd sp-rn-tvos
 npm install
+npm run build
 
 cd TestAppTvOS
 yarn
