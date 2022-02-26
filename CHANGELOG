@@ -1,0 +1,134 @@
+Version 1.1.0 (2022-02-07)
+--------------------------
+Update mobile tracker dependencies to v3 (#141)
+Add deep link and message notification events (#142)
+Update demo app to show accessing tracker instance from platform native code (#136)
+Fix compilation error for iOS build on ARM macs (#140)
+Fix check for byteLimitGet when reading emitter configuration (#138)
+Fix check for Android version in GitHub Actions (#134) 
+Update year in all copyright notices (#148) 
+Update dependencies (#150) 
+
+Version 1.0.0 (2021-08-09)
+--------------------------
+Fix action-gh-release to specific commit (#133)
+Update devDependencies (#132)
+Publish sourcemaps (#131)
+Lint DemoApp separately (#130)
+Get Session Context Data (#53)
+Update version in podspec (#110)
+Set amended v_tracker indicating react-native (#18)
+Add global contexts (#104)
+Upgrade iOS Tracker and Android Tracker to v2 (#113)
+Add test suite (#60)
+
+Version 0.2.0 (2021-06-21)
+--------------------------
+Bump dependencies in DemoApp (#114)
+Port to TypeScript (#115)
+Handle asyncronous issues internally (#78)
+Use ESLint (#126)
+Add homepage and repository in package.json (#125)
+Remove unused files (#124)
+
+Version 0.1.7 (2021-05-24)
+--------------------------
+Remove waitForEventStore method and upgrade Android tracker (#92)
+Automate deploy process (#61)
+Fix null transitionType resulting in screen view event failing validation for ios (#122)
+Fix Xcode 12.5 build breaks (#119)
+Fix typo in CHANGELOG (#116)
+Remove JCenter and add MavenCentral (#121)
+Update build.gradle to match rootProject extra properties (#120)
+Fix assembleAndroidTest builds (#118)
+
+Version 0.1.6 (2021-04-06)
+--------------------------
+Bump iOS Tracker to 1.7.0 (#111)
+
+Version 0.1.5 (2021-03-22)
+--------------------------
+Update DemoApp versions (#106)
+Loosen peer dependency requirements (#105)
+
+Note: v0.1.4 was skipped due to an error in publishing process.
+---------------------------------------------------------------
+
+Version 0.1.3 (2021-02-12)
+--------------------------
+Fix Xcode 12 compatibility (#102)
+
+Version 0.1.2 (2021-01-15)
+--------------------------
+Upgrade obj-c tracker to 1.6.2 (#98)
+
+Version 0.1.1 (2020-09-03)
+--------------------------
+Fix Android tracker version to 1.5.x (#91)
+
+Version 0.1.0 (2020-07-10)
+--------------------------
+Add issue templates (#89)
+Add CONTRIBUTING.md (#80)
+Use recommended config as defaults (#86)
+Fix iOS null comparison warnings (#85)
+Return after promise rejection on Android (#84)
+Update arguments and var names for consistency (#83)
+Update DemoApp (#82)
+Use fast fail on iOS (#87)
+Update README (#77)
+Dynamically use latest minor version of native tracker (#19)
+Cleanup code formatting (#75)
+Add Snyk Github Action (#71)
+Add license (#62)
+Handle setSubjectData values appropriately (#70)
+Return promise on intialize() (#66)
+Remove deprecated options (#69)
+Expand testing scripts (#72)
+Refactor method instrumentation (#58)
+Fix compile warnings caused by unsafe comparison (#73)
+Fix double self calls (#74)
+Remove screen_id workaround (#57)
+
+Version 0.1.0-alpha.17 (2020-05-04)
+-----------------------------------
+Use yarn everywhere for testing (#55)
+Update ios tracker version to 1.3.0 (#54)
+
+Version 0.1.0-alpha.16 (2020-04-16)
+-----------------------------------
+Update .npmignore and .gitignore (#51)
+Update README (#50)
+Update Demo App (#48)
+Add trackPageView (#33)
+Add script for clean build (#47)
+Add setSubjectData method (#46)
+Update android tracker version (#45)
+Add Standard Settings (#34)
+
+Version 0.1.0-alpha.15 (2020-02-06)
+-----------------------------------
+Cleanup Repo (#29)
+Update DemoApp (#21)
+Update ios Tracker dependency to remove mandatory dynamic build (#22)
+
+Version 0.1.0-alpha.14 (2019-10-22)
+----------------------------------
+Update iOS to incorporate patch release (#23)
+
+Version 0.1.0-alpha.13 (2019-10-14)
+-----------------------------------
+Make optional StructEvent parameters nullable for iOS (#12)
+Add ScreenViews (#14)
+Fix bug in android getContexts (#16)
+Add mobile context (#13)
+Update README.md (#5)
+Fix path in Android package export (#8)
+Fix high severity vulnerabilities in DemoApp (#7)
+Bump DemoApp react-native version (#6)
+Fix import in Demo Application (#3)
+Fix Android Numeric type bug (#4)
+
+Version 0.1.0-alpha.9 (2019-08-08)
+----------------------------------
+Initial Release
